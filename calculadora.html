@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body class="bg-calcu" class="h-100">
+    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Inicio</a></li>
+    <div class=" container text-center flex-container">  
+        <label for="txt-numero" id="lbl-numero"></label>
+        <input type="text" class="caja" id="txt-numero" value="">
+          <label for="txt-numero" type="signo" id="lbl-signo">signo </label>
+
+          <div class="d-flex justify-content-center">
+                <input class ="button btn-primary number numero" type="button" value="C" id="btn-clear">
+                <input class ="button btn-primary number numero" type="button" value="CE" id="btn-backspace"> 
+                <input class ="button btn-primary number numero" type="button" value="%" id="btn-poten">
+             <input class ="button btn-primary number numero" type="button" value="&#247" id="btn-div">
+           <input class ="button btn-primary number numero" type="button" value="Ans" id="btn-guarda">
+            </div>
+ 
+        <!--codigo para botones de jadigar-->   
+        <div class="d-flex justify-content-center"> 
+        <input class ="button btn-primary number numero" type="button" value="7" id="num7">   
+        <input  class ="button btn-primary number numero" type="button" value="8" id="num8">     
+        <input class ="button btn-primary number numero" type="button" value="9" id="num9">
+        <input class ="button btn-primary number numero" type="button" value="&times;" id="btn-multi"> 
+       <input class ="button btn-primary number numero" type="button" value="In" id="btn-ln">    
+            </div>    
+           
+       
+      
+            <div class="d-flex justify-content-center">
+                <input class ="button btn-primary number numero" type="button" value="4" id="num4">              
+                <input class ="button btn-primary number numero" type="button" value="5" id="num5">
+                <input class ="button btn-primary number numero" type="button" value="6" id="num6"> 
+                <input class ="button btn-primary number numero" type="button" value="-" id="btn-menos">
+                <input class ="button btn-primary number numero" type="button" value="Log" id="btn-log">   
+            </div>  
+            <div class="d-flex justify-content-center">
+                <input class ="button btn-primary number numero" type="button" value="1" id="num1">
+                <input class ="button btn-primary number numero" type="button" value="2" id="num2">
+                <input class ="button btn-primary number numero" type="button" value="3" id="num3">
+                <input class ="button btn-primary number numero" type="button" value="+" id="btn-suma">
+                <input class ="button btn-primary number numero" type="button" value="√" id="btn-Raiz">      
+            </div>
+            <div class="d-flex justify-content-center">
+                <input class ="button btn-primary number numero" type="button" value="x2" id="btn-expo">
+                <input class ="button btn-primary number numero" type="button" value="." id="btn-punto">
+                <input class ="button btn-primary number numero" type="button" value="0" id="num0">
+                <input class ="button btn-primary operator numero" type="button" value="=" id="btn-igual">
+            </div>   
+        </div>
+               <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+             <script src="js/app.js"></script>
+    </div>              
+</body>
+</html>
